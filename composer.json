@@ -1,0 +1,20 @@
+{
+    "name": "panda/brackets-checker",
+    "description": "Simple package for checking if brackets sequence is balanced",
+    "authors": [
+        {
+            "name": "Nikita Gerasimchuk",
+            "email": "nikita.gerasimchuk@s4b.team"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "symfony/console": "^4.0",
+        "php-di/php-di": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "BracketsChecker\\": "src/"
+        }
+    }
+}
