@@ -31,7 +31,7 @@ class CheckerCommand extends Command
     }
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $c = new Checker();
+        $c = $this->checker;
         $c->set_str($input->getArgument('string'));
 
         if($c->check())
